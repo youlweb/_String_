@@ -7,12 +7,13 @@
  */
 
 namespace _Chain_\_String_;
+
 use _Chain_\Type;
 
 /**
  * @author Julien Tord <youlweb@hotmail.com>
  */
-class _Lowercase_Test extends \PHPUnit_Framework_TestCase
+class _Uppercase_Test extends \PHPUnit_Framework_TestCase
 {
     const IO = '\_Chain_\I_O';
 
@@ -20,9 +21,9 @@ class _Lowercase_Test extends \PHPUnit_Framework_TestCase
     {
         $IO = $this->mockIO();
         $IO->expects($this->once())->method('I_')->with(Type::STRING)
-            ->willReturn('FOo BaR');
-        $IO->expects($this->once())->method('_O')->with('foo bar');
-        $lowercase = new _Lowercase_();
+            ->willReturn('fOo Bar');
+        $IO->expects($this->once())->method('_O')->with('FOO BAR');
+        $lowercase = new _Uppercase_();
         $lowercase->EXE($IO);
     }
 

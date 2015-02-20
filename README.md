@@ -1,6 +1,9 @@
 #\_String\_
 ###*Library of string links for \_Chain\_.*
 
+* [\_Length\_](/src/_Length_.php)
+Get the length of a string.
+
 * [\_Lowercase\_](/src/_Lowercase_.php)
 Make a string lowercase.
 

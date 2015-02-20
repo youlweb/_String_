@@ -25,7 +25,7 @@ class _Whitespace_ extends _AbsLink_
     private $_trim;
 
     /**
-     * @param bool $trim Remove leading/trailing whitespace as well.
+     * @param bool $trim Remove leading/trailing whitespaces.
      */
     public function __construct($trim = true)
     {
