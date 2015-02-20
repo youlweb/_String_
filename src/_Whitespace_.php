@@ -35,9 +35,9 @@ class _Whitespace_ extends _AbsLink_
     /**
      * Remove extra whitespaces from a string.
      *
-     * Any sequence of more than one whitespace is reduced to a single whitespace.
-     * By default, leading and trailing whitespaces are also removed.
-     * Whitespaces include tab, newline, and linebreak characters.
+     * Reduce substrings containing more than one whitespace to a single
+     * whitespace. By default, leading and trailing whitespaces are also
+     * removed. Whitespaces include tab, newline, and linebreak characters.
      *
      * I/O contract
      * ------------
