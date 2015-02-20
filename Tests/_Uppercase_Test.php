@@ -15,7 +15,7 @@ use _Chain_\Type;
  */
 class _Uppercase_Test extends \PHPUnit_Framework_TestCase
 {
-    const IO = '\_Chain_\I_O';
+    const IO = '_Chain_\I_O';
 
     public function testEXE()
     {
