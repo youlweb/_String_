@@ -15,23 +15,13 @@ use _Chain_\Type;
  */
 class _Lowercase_Test extends \PHPUnit_Framework_TestCase
 {
-    const IO = '_Chain_\I_O';
-
     public function testEXE()
     {
-        $IO = $this->mockIO();
+        $IO = $this->getMock('_Chain_\I_O');
         $IO->expects($this->once())->method('I_')->with(Type::STRING)
             ->willReturn('FOo BaR');
         $IO->expects($this->once())->method('_O')->with('foo bar');
         $lowercase = new _Lowercase_();
         $lowercase->EXE($IO);
-    }
-
-    /**
-     * @return \PHPUnit_Framework_MockObject_MockObject
-     */
-    private function mockIO()
-    {
-        return $this->getMock(self::IO);
     }
 }

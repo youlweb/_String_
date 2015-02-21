@@ -14,23 +14,13 @@ use _Chain_\Type;
  */
 class _ShannonEntropy_Test extends \PHPUnit_Framework_TestCase
 {
-    const IO = '_Chain_\I_O';
-
     public function testEXE()
     {
-        $IO = $this->mockIO();
+        $IO = $this->getMock('_Chain_\I_O');
         $IO->expects($this->once())->method('I_')->with(Type::STRING)
             ->willReturn('foo bar');
         $IO->expects($this->once())->method('_O')->with(2.5216406363433181);
         $lowercase = new _ShannonEntropy_();
         $lowercase->EXE($IO);
-    }
-
-    /**
-     * @return \PHPUnit_Framework_MockObject_MockObject
-     */
-    protected function mockIO()
-    {
-        return $this->getMock(self::IO);
     }
 }
