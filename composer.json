@@ -1,6 +1,6 @@
 {
   "name": "chain/string",
-  "description": "Library of string links for _Chain_.",
+  "description": "Library of _Chain_ links for string processing.",
   "type": "library",
   "homepage": "https://github.com/youlweb/_String_",
   "license": "MIT",

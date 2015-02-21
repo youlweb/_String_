@@ -1,5 +1,5 @@
 #\_String\_
-###*Library of string links for \_Chain\_.*
+###*Library of [\_Chain\_](https://github.com/youlweb/_Chain_) links for string processing.*
 
 * [\_Length\_](/src/_Length_.php)
 Get the length of a string.
