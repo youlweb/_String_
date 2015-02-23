@@ -7,6 +7,7 @@
  */
 
 namespace _Chain_\_String_;
+
 use _Chain_\Type;
 
 /**
