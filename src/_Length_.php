@@ -15,7 +15,7 @@ use _Chain_\Type;
 /**
  * Returns the length of a string.
  *
- * @author Julien Tord <youlweb@hotmail.com>
+ * @author Julien <youlweb@hotmail.com>
  */
 class _Length_ extends _AbsLink_
 {

@@ -15,7 +15,7 @@ use _Chain_\Type;
 /**
  * Returns the average number of bits needed to encode an input string.
  *
- * @author Julien Tord <youlweb@hotmail.com>
+ * @author Julien <youlweb@hotmail.com>
  */
 class _ShannonEntropy_ extends _AbsLink_
 {

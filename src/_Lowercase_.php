@@ -15,7 +15,7 @@ use _Chain_\Type;
 /**
  * Make a string lowercase.
  *
- * @author Julien Tord <youlweb@hotmail.com>
+ * @author Julien <youlweb@hotmail.com>
  */
 class _Lowercase_ extends _AbsLink_
 {

@@ -11,7 +11,7 @@ namespace _Chain_\_String_;
 use _Chain_\Type;
 
 /**
- * @author Julien Tord <youlweb@hotmail.com>
+ * @author Julien <youlweb@hotmail.com>
  */
 class _Lowercase_Test extends \PHPUnit_Framework_TestCase
 {

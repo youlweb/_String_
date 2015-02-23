@@ -15,7 +15,7 @@ use _Chain_\Type;
 /**
  * Remove extra whitespaces from a string.
  *
- * @author Julien Tord <youlweb@hotmail.com>
+ * @author Julien <youlweb@hotmail.com>
  */
 class _Whitespace_ extends _AbsLink_
 {
